@@ -17,11 +17,11 @@
                 Flutes
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="flutes-link">
-                <a href="" class="dropdown-item">Classical Flutes</a>
-                <a href="" class="dropdown-item">Student Flutes</a>
-                <a href="" class="dropdown-item">Piccolos</a>
-                <a href="" class="dropdown-item">Wooden Flutes</a>
-                <a href="" class="dropdown-item">All Flutes</a>
+                <a href="{% url 'products' %}?category=classical_flutes" class="dropdown-item">Classical Flutes</a>
+                <a href="{% url 'products' %}?category=student_flutes" class="dropdown-item">Student Flutes</a>
+                <a href="{% url 'products' %}?category=piccolos" class="dropdown-item">Piccolos</a>
+                <a href="{% url 'products' %}?category=wooden_flutes" class="dropdown-item">Wooden Flutes</a>
+                <a href="{% url 'products' %}?category=classical_flutes,student_flutes,piccolos,wooden_flutes" class="dropdown-item">All Flutes</a>
             </div>
         </li>
 
@@ -30,11 +30,11 @@
                 Music Books
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="music-books-link">
-                <a href="" class="dropdown-item">Classical Music Books</a>
-                <a href="" class="dropdown-item">Student Music Books</a>
-                <a href="" class="dropdown-item">Flute Repertoire Books</a>
-                <a href="" class="dropdown-item">Duets Music Books</a>
-                <a href="" class="dropdown-item">All Music Books</a>
+                <a href="{% url 'products' %}?category=classical_music_books" class="dropdown-item">Classical Music Books</a>
+                <a href="{% url 'products' %}?category=student_music_books" class="dropdown-item">Student Music Books</a>
+                <a href="{% url 'products' %}?category=flute_repertoire_books" class="dropdown-item">Flute Repertoire Books</a>
+                <a href="{% url 'products' %}?category=duets_music_books" class="dropdown-item">Duets Music Books</a>
+                <a href="{% url 'products' %}?category=classical_music_books,student_music_books,flute_repertoire_books,duets_music_books" class="dropdown-item">All Music Books</a>
             </div>
         </li>
     </ul>
