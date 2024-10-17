@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-*-of*qmr^fceb483b0)etzf0)70p&zbi0fpz^rx#ip9@e())*7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ep-flutes-flutes-and-flutes.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['ep-flutes-flutes-and-flutes-31bc05f84613.herokuapp.com', 'localhost']
 
 
 # Application definition
