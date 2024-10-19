@@ -1,131 +1,136 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+### Code Institute Milestone Project 4 – Online Flute Store
 
-Welcome Emily Page,
+## Description
+The purpose of this project was to create an ecommerce website for flautists that want to purchase flutes of different types and styles. As I am in a band and my instrument is the flute, I wanted to create a website that is for flutes and only flutes. This is my final project for Code Institute Level 5 Diploma in Web Application Development.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## UX
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## User Goals
+Access to different types of flutes: As a flautist I want to browse and purchase flutes and score music.
+To be able to register and login to and create my own account for the website. 
+To be able to read a description of the flute I want to purchase. 
+To be able to purchase a flute or score music. 
 
-## Gitpod Reminders
+## Business Goals
+Increase sales and revenue: The primary business goal is to increase sales of flutes by providing a user-friendly website for people that want to browse and purchase flutes. To provide different types of flutes so the user can choose what they wish to purchase. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Stories
 
-`python3 -m http.server`
+# Viewing and Navigation
+1	Shopper	View a list of products (flutes)	Select some to purchase
+2	Shopper	View a specific category of products	Quickly find products I'm interested in without having to search through all products
+3	Shopper	View individual product details	Identify the price, description, product rating, product image and available types
+4	Shopper	Quickly identify deals, clearance items, and special offers	Take advantage on special savings on products (flutes)I'd like to purchase
+5	Shopper	Easily view the total of my purchases at any time	Avoid spending too much and get the right flute
+# Registration and User Accounts
+6	Site User	Easily register for an account	Have a personal account and be able to view my profile
+7	Site User	Easily login or logout 	Access my personal account information
+8	Site User	Easily recover my password in case I forget it 	Recover access to my account
+9	Site User	Receive an email confirmation after registering	Verify that my account registration was successful
+10	Site User	Have personalised user profile	View my personal order history and order confirmation, and save my payment information
+# Sorting and Searching
+11	Shopper	Sort the list of available products (flutes)	Easily identify the best rated, best priced and categorically sorted products (flutes)
+12	Shopper	Sort a specific category of product (flute)	Find the best price or rated product (flute) in a specific category, or sort the products in that category by name
+13	Shopper	Sort multiple categories of products simultaneously	Find the best priced or best rated products (flutes)across categories such as "piccolos" or "wooden flutes"
+14	Shopper	Search for a product by name or description	Find a specific product I'd like to purchase
+15	Shopper	Easily see what I've searched for and the number of results	Quickly decide whether the product I want is available
+# Purchasing and Checkout
+16	Shopper	Easily select the type and quantity of a product (flute)when purchasing it	Ensure I don't accidentally select the wrong product (flute), quantity or type
+17	Shopper	View items in my bag to be purchased	Identify the total cost of my purchase and all items I will receive
+18	Shopper	Adjust the quantity of individual items in my bag	Easily make changes to my purchases before checkout
+19	Shopper	Easily enter my payment information	Check out quickly and with no hassles
+20	Shopper	Feel my payment and personal information is safe and secure	Confidently provide the needed information to make a purchase
+21	Shopper	View an order confirmation after checkout	Verify that I haven't made any mistakes
+22	Shopper	Receive an email confirmation after checking out	Keep the confirmation of what I've purchased for my records
+# Admin and Store Management
+23	Store Owner	Add a product	Add new items to my store
+24	Store Owner	Edit/update a product	Change product prices, descriptions, images, and other product criteria
+25	Store Owner	Delete a product	Remove items that are no longer for sale
 
-A blue button should appear to click: _Make Public_,
+## Data Models
+![image](https://github.com/user-attachments/assets/7ff53d7e-979e-44ea-a061-ad196730872c)
 
-Another blue button should appear to click: _Open Browser_.
+## Tables:
+a. Customers
+•	customer_id (Primary Key)
+•	first_name
+•	last_name
+•	email
+•	phone_number
+•	shipping_address (Foreign Key to Address Table)
+•	billing_address (Foreign Key to Address Table)
+•	account_created_date
+•	password
+b. Products (Flutes)
+•	product_id (Primary Key)
+•	name
+•	description
+•	price
+•	brand
+•	model
+•	material
+•	flute_type (e.g., classical, piccolo, wooden,student)
+•	inventory_id (Foreign Key to Inventory Table)
+c. Inventory
+•	inventory_id (Primary Key)
+•	product_id (Foreign Key to Products Table)
+•	stock_quantity
+•	warehouse_location
+•	last_stock_update
+d. Orders
+•	order_id (Primary Key)
+•	customer_id (Foreign Key to Customers Table)
+•	order_date
+•	shipping_address (Foreign Key to Address Table)
+•	billing_address (Foreign Key to Address Table)
+•	order_status (e.g., Pending, Shipped, Delivered)
+•	total_amount
+e. Order_Items
+•	order_item_id (Primary Key)
+•	order_id (Foreign Key to Orders Table)
+•	product_id (Foreign Key to Products Table)
+•	quantity
+•	unit_price
+f. Payments
+•	payment_id (Primary Key)
+•	order_id (Foreign Key to Orders Table)
+•	payment_date
+•	payment_method (e.g., Credit Card, PayPal)
+•	payment_status (e.g., Completed, Pending, Failed)
+•	total_amount
+g. Shipping
+•	shipping_id (Primary Key)
+•	order_id (Foreign Key to Orders Table)
+•	shipping_method (e.g., Standard, Expedited)
+•	tracking_number
+•	shipping_date
+•	estimated_delivery_date
+h. Reviews
+•	review_id (Primary Key)
+•	customer_id (Foreign Key to Customers Table)
+•	product_id (Foreign Key to Products Table)
+•	review_rating (e.g., 1-5 stars)
+•	review_text
+•	review_date
+i. Address
+•	address_id (Primary Key)
+•	customer_id (Foreign Key to Customers Table)
+•	address_line1
+•	address_line2
+•	city
+•	state
+•	postal_code
+•	country
+2. Relationships:
+•	A Customer can place many Orders, but an Order belongs to one Customer.
+•	An Order can have many Order_Items, but each Order_Item corresponds to one Product.
+•	A Customer can provide multiple Reviews, but a Review relates to one Product.
+•	Each Product is related to its Inventory, maintaining stock information.
+•	Payments are linked to Orders, ensuring that each order has payment tracking.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
