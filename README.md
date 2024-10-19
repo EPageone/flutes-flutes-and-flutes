@@ -16,25 +16,25 @@ Increase sales and revenue: The primary business goal is to increase sales of fl
 
 ## User Stories
 
-# Viewing and Navigation
+### Viewing and Navigation
 1	Shopper	View a list of products (flutes)	Select some to purchase
 2	Shopper	View a specific category of products	Quickly find products I'm interested in without having to search through all products
 3	Shopper	View individual product details	Identify the price, description, product rating, product image and available types
 4	Shopper	Quickly identify deals, clearance items, and special offers	Take advantage on special savings on products (flutes)I'd like to purchase
 5	Shopper	Easily view the total of my purchases at any time	Avoid spending too much and get the right flute
-# Registration and User Accounts
+### Registration and User Accounts
 6	Site User	Easily register for an account	Have a personal account and be able to view my profile
 7	Site User	Easily login or logout 	Access my personal account information
 8	Site User	Easily recover my password in case I forget it 	Recover access to my account
 9	Site User	Receive an email confirmation after registering	Verify that my account registration was successful
 10	Site User	Have personalised user profile	View my personal order history and order confirmation, and save my payment information
-# Sorting and Searching
+### Sorting and Searching
 11	Shopper	Sort the list of available products (flutes)	Easily identify the best rated, best priced and categorically sorted products (flutes)
 12	Shopper	Sort a specific category of product (flute)	Find the best price or rated product (flute) in a specific category, or sort the products in that category by name
 13	Shopper	Sort multiple categories of products simultaneously	Find the best priced or best rated products (flutes)across categories such as "piccolos" or "wooden flutes"
 14	Shopper	Search for a product by name or description	Find a specific product I'd like to purchase
 15	Shopper	Easily see what I've searched for and the number of results	Quickly decide whether the product I want is available
-# Purchasing and Checkout
+### Purchasing and Checkout
 16	Shopper	Easily select the type and quantity of a product (flute)when purchasing it	Ensure I don't accidentally select the wrong product (flute), quantity or type
 17	Shopper	View items in my bag to be purchased	Identify the total cost of my purchase and all items I will receive
 18	Shopper	Adjust the quantity of individual items in my bag	Easily make changes to my purchases before checkout
@@ -42,7 +42,7 @@ Increase sales and revenue: The primary business goal is to increase sales of fl
 20	Shopper	Feel my payment and personal information is safe and secure	Confidently provide the needed information to make a purchase
 21	Shopper	View an order confirmation after checkout	Verify that I haven't made any mistakes
 22	Shopper	Receive an email confirmation after checking out	Keep the confirmation of what I've purchased for my records
-# Admin and Store Management
+### Admin and Store Management
 23	Store Owner	Add a product	Add new items to my store
 24	Store Owner	Edit/update a product	Change product prices, descriptions, images, and other product criteria
 25	Store Owner	Delete a product	Remove items that are no longer for sale
