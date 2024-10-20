@@ -3,6 +3,16 @@
 ## Description
 The purpose of this project was to create an ecommerce website for flautists that want to purchase flutes of different types and styles. As I am in a band and my instrument is the flute, I wanted to create a website that is for flutes and only flutes. This is my final project for Code Institute Level 5 Diploma in Web Application Development.
 
+To login into the Heroku app please use: https://ep-flutes-flutes-and-flutes-31bc05f84613.herokuapp.com
+
+To get into the Django admin and be a superuser for the Project Management for the app please follow: 
+Username = epage1
+Password = Brasseye123
+
+To make a purchase in the Checkout Page please use the CVC as follows: 
+CVC = 4242 4242 4242 4242    04/29  424  24242
+
+
 ## UX
 
 ## User Goals
@@ -140,6 +150,8 @@ i. Address
 •	A Customer can provide multiple Reviews, but a Review relates to one Product.
 •	Each Product is related to its Inventory, maintaining stock information.
 •	Payments are linked to Orders, ensuring that each order has payment tracking.
+
+
 
 
 
