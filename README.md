@@ -190,6 +190,26 @@ i. Address
 ![Mobile Check Out Page](https://github.com/user-attachments/assets/f46c01d3-5349-4f6c-8ac5-071332790f58)
 
 
+### Root Directory
+
+![image](https://github.com/user-attachments/assets/9f9808a7-8cce-417d-9fd2-953f436ac0d4)
+
+## Features
+
+### Existing Features
+
+Flutes, Flutes & Flutes comprises of 4 Django apps, each working harmoniously to deliver a seamless user experience, harnessing the power of Django. Their purposes are as follows:
+
+•	Bag: Manages the functionality of the user's bag, allowing products to be added, edited, and removed, preserving them throughout the user's session on the website.
+•	Checkout:  Orchestrates the checkout experience, including data validation, handling webhooks, and caching the session.
+
+•	Products: Manages the database and functionality of the shopping platform, allowing users to browse, review, and purchase items. Superusers have the ability to modify and augment the catalogue.
+
+•	Profiles: Handles the functionality of user profiles across the site, enabling them to view and update their addresses, as well as review past orders.
+
+
+
+
 
 
 
