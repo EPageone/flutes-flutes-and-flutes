@@ -305,6 +305,35 @@ I ran tests for my models, forms, views in my bag app, checkout app and products
 |                |              |  Flute Duet          |              |             |
 |                |              |  Music Books.        |              |             |
 |:---------------|:-------------|:---------------------|:-------------|:------------|                  
+|Register and    | User directed| User can sign up and |  Yes         |  Yes        |
+|  Login         |  to Register | sign in and use their|              |             |
+|                |  and or Login| profile, which will  |              |             |
+|                |              | allow users to update|              |             |                                                        
+|                |              | information and      |              |             |
+|                |              | keep orders in the   |              |             |
+|                |              | order summary.       |              |             |
+|                |              |                      |              |             |
+|                |              |                      |              |             |
+|:---------------|:-------------|:---------------------|:-------------|:------------|                
+| Product        |Add Products, | Superuser can add,   |  Yes         |  Yes        |
+| Management     |   edit and   | edit and delete      |              |             |
+|                |   delete     | products. Normal     |              |             |
+|                |  (only for   | users cannot do this.|              |             |
+|                |  superusers) |                      |              |             |
+|                |              |                      |              |             |               
+|:---------------|:-------------|:---------------------|:-------------|:------------|
+| Logout         | Users can    |  User can logout,    | Yes          |  Yes        |
+|                | logout       | returns to Login     |              |             |
+|                |              | Page                 |              |             |
+|                |              |                      |              |             |
+|:---------------|:-------------|:---------------------|:-------------|:------------|
+
+
+
+
+
+
+
 
 
 
