@@ -155,6 +155,17 @@ i. Address
 •	Payments are linked to Orders, ensuring that each order has payment tracking.
 
 
+### Design Choices
+
+1.	Minimalistic Design: The design follows a minimalistic approach with a clean and uncluttered layout. This ensures that the content remains the focal point and enhances readability.
+
+2.	Responsive Layout: The template utilizes Bootstrap, a popular CSS framework, to ensure responsiveness across various devices and screen sizes. This allows the website to adapt seamlessly to different viewport dimensions, providing a consistent user experience.
+
+3.	Clear Navigation: The navigation menu is intuitive and easy to navigate, with collapsible options for smaller screens. This ensures that users can access different sections of the website effortlessly.
+
+4.	Attention to Detail: The design includes subtle elements such as icons, hover effects, and form styling to enhance user interaction and visual appeal. For example, the search form includes dropdown options for selecting the search category, improving usability.
+
+5.	Branding Elements: Branding elements like the logo and colour scheme are consistent throughout the website, contributing to brand identity and recognition.
 
 
 
