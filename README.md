@@ -165,7 +165,46 @@ i. Address
 
 4.	Attention to Detail: The design includes subtle elements such as icons, hover effects, and form styling to enhance user interaction and visual appeal. For example, the search form includes dropdown options for selecting the search category, improving usability.
 
-5.	Branding Elements: Branding elements like the logo and colour scheme are consistent throughout the website, contributing to brand identity and recognition.
+5.	Branding Elements: Branding elements like the title and colour scheme are consistent throughout the website, contributing to website identity and recognition.
+
+
+### Wireframes
+
+![Home Page](https://github.com/user-attachments/assets/e18b7650-53fe-495a-91cb-ab104fbc60b2)
+![Sign Up_Register](https://github.com/user-attachments/assets/734080bc-992a-403a-b66c-0680cac6fb2a)
+![Sign In](https://github.com/user-attachments/assets/b7f8d50d-cc3e-477b-b0da-90438eb832ba)
+![Flute Description Page](https://github.com/user-attachments/assets/fe7e3a41-58be-49c4-8a94-d19bdc13bff9)
+![Added to Basket Page](https://github.com/user-attachments/assets/0deda5ee-6338-4950-81f5-3b79eda7800c)
+![Check Out Page](https://github.com/user-attachments/assets/f10ad502-61e4-4338-940f-78aaa64cb95d)
+![Tablet Home Page](https://github.com/user-attachments/assets/a1b88dc0-5181-497a-869b-177d6f823d77)
+![Tablet Sign Up_Register Page](https://github.com/user-attachments/assets/1ced6c4b-ea2a-41e1-831f-2d29d3e04c62)
+![Tablet Sign In Page](https://github.com/user-attachments/assets/40c2b4fe-765a-4e8e-a819-8334579583d0)
+![Tablet Flute Description Page](https://github.com/user-attachments/assets/776255cf-81f3-4b17-900c-04fa2e8f20b8)
+![Tablet Added to Basket Page](https://github.com/user-attachments/assets/bd7987d5-300f-4abd-9b49-3f94d27037ca)
+![Tablet Check Out Page](https://github.com/user-attachments/assets/7b1b3bf2-803d-4788-95a7-792602dd5263)
+![Mobile Home Page](https://github.com/user-attachments/assets/b9227b4d-14fd-4756-9ce9-0a71f94ec995)
+![Mobile Sign Up_Register Page](https://github.com/user-attachments/assets/93c0348a-45b4-4fd3-8cbd-a532fa4ba907)
+![Mobile Sign In Page](https://github.com/user-attachments/assets/6b2ae290-d0c9-4734-88b3-06ad9fa7da35)
+![Mobile Flute Description Page](https://github.com/user-attachments/assets/c8e2402c-a3e9-4abf-8060-c51a6fadc9aa)
+![Mobile Added Basket Page](https://github.com/user-attachments/assets/966148ac-a71a-4312-9338-40ddcdacc317)
+![Mobile Check Out Page](https://github.com/user-attachments/assets/f46c01d3-5349-4f6c-8ac5-071332790f58)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
