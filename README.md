@@ -65,6 +65,7 @@ a. Customers
 •	billing_address (Foreign Key to Address Table)
 •	account_created_date
 •	password
+
 b. Products (Flutes)
 •	product_id (Primary Key)
 •	name
@@ -75,12 +76,14 @@ b. Products (Flutes)
 •	material
 •	flute_type (e.g., classical, piccolo, wooden,student)
 •	inventory_id (Foreign Key to Inventory Table)
+
 c. Inventory
 •	inventory_id (Primary Key)
 •	product_id (Foreign Key to Products Table)
 •	stock_quantity
 •	warehouse_location
 •	last_stock_update
+
 d. Orders
 •	order_id (Primary Key)
 •	customer_id (Foreign Key to Customers Table)
@@ -89,12 +92,14 @@ d. Orders
 •	billing_address (Foreign Key to Address Table)
 •	order_status (e.g., Pending, Shipped, Delivered)
 •	total_amount
+
 e. Order_Items
 •	order_item_id (Primary Key)
 •	order_id (Foreign Key to Orders Table)
 •	product_id (Foreign Key to Products Table)
 •	quantity
 •	unit_price
+
 f. Payments
 •	payment_id (Primary Key)
 •	order_id (Foreign Key to Orders Table)
@@ -102,6 +107,7 @@ f. Payments
 •	payment_method (e.g., Credit Card, PayPal)
 •	payment_status (e.g., Completed, Pending, Failed)
 •	total_amount
+
 g. Shipping
 •	shipping_id (Primary Key)
 •	order_id (Foreign Key to Orders Table)
@@ -109,6 +115,7 @@ g. Shipping
 •	tracking_number
 •	shipping_date
 •	estimated_delivery_date
+
 h. Reviews
 •	review_id (Primary Key)
 •	customer_id (Foreign Key to Customers Table)
@@ -116,6 +123,7 @@ h. Reviews
 •	review_rating (e.g., 1-5 stars)
 •	review_text
 •	review_date
+
 i. Address
 •	address_id (Primary Key)
 •	customer_id (Foreign Key to Customers Table)
@@ -125,6 +133,7 @@ i. Address
 •	state
 •	postal_code
 •	country
+
 2. Relationships:
 •	A Customer can place many Orders, but an Order belongs to one Customer.
 •	An Order can have many Order_Items, but each Order_Item corresponds to one Product.
