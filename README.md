@@ -208,6 +208,38 @@ Flutes, Flutes & Flutes comprises of 4 Django apps, each working harmoniously to
 •	Profiles: Handles the functionality of user profiles across the site, enabling them to view and update their addresses, as well as review past orders.
 
 
+### Technologies Used
+
+•	** Django: Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It follows the DRY (Don't Repeat Yourself) principle, reducing the amount of code needed for common web development tasks and promoting code reusability.
+
+•	** Python: Python is a versatile and beginner-friendly programming language known for its readability and simplicity. It offers a vast ecosystem of libraries and frameworks, making it ideal for web development projects like Flutes, Flutes & Flutes.
+
+•	** HTML/CSS/JavaScript: These are the fundamental technologies for building web pages and adding interactivity to web applications. HTML provides the structure, CSS enhances the presentation and styling, and JavaScript adds dynamic behaviour to the website, improving user experience.
+
+•	** PostgreSQL/SQLite: PostgreSQL and SQLite are powerful relational database management systems (RDBMS) used for storing and managing data in the Flutes, Flutes & Flutes project. PostgreSQL offers advanced features like ACID compliance, while SQLite is lightweight and easy to set up, making it suitable for development and testing environments.
+
+•	** Crispy Forms: Crispy Forms is a Django application that helps with rendering forms in a Bootstrap-friendly manner. It simplifies form styling and layout customization, enhancing the visual appeal and usability of forms in Flutes, Flutes & Flutes.
+
+•	** Django Allauth: Django Allauth is a Django-based authentication app that provides robust user authentication, registration, and account management features out of the box. It saves development time and effort by handling common authentication tasks, such as login, logout, and password reset, with minimal configuration.
+
+•	** AWS (Amazon Web Services): AWS is a cloud computing platform that offers a wide range of services, including storage, compute, database, and networking services. Flutes, Flutes & Flutes utilizes AWS for static and media file storage, leveraging the scalability, reliability, and security features provided by AWS.
+
+•	** Stripe: Stripe is a popular payment processing platform that enables businesses to accept payments securely online. Integrating Stripe into Flutes, Flutes & Flutes allows for seamless and secure payment transactions, enhancing the user experience and facilitating business transactions.
+
+•	** HTML: Markup language for structuring web pages.
+
+•	** CSS: Stylesheet language for styling HTML elements.
+
+•	** JavaScript: Programming language for adding interactivity to web pages.
+
+•	** Bootstrap: Front-end framework for building responsive websites. Provides pre-designed components for rapid development.
+
+•	** JQuery: JavaScript library for simplifying DOM manipulation and event handling. Streamlines development with a concise API.
+
+•	** Git: Distributed version control system for tracking changes in source code. Facilitates collaboration and code sharing among developers.
+
+
+
 
 
 
