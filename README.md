@@ -283,29 +283,28 @@ I ran tests for my models, forms, views in my bag app, checkout app and products
 |  **Feature**   | **Action**   | **Expected Result**  | **Tested**   | **Passed**  |
 |:---------------|:-------------|:---------------------|:-------------|:------------|
 |  Home Page     | All Products,| User can search for  | Yes          | Yes         |
-                  Flutes,       |
-                  Music Books   | products using All   |              |             |
-                                  Products dropdown    |
-                                  using Pricing,       |
-                                  Category, Rating.    |
-                                  User can search All  |
-                                  Flutes using the     |
-                                  dropdown for         |
-                                  Classical Flutes,    | 
-                                  Student Flutes,      |
-                                  Piccolos and Wooden  | 
-                                  Flutes. Users can    |
-                                  search All Music     |
-                                  Books using the      |
-                                  dropdown menu for    |
-                                  Classical Music      |
-                                  Books,               |
-                                  Student Music Books, |
-                                  Flute Repertoire     |
-                                  Music Books and      |
-                                  Flute Duet           |
-                                  Music Books.         |
-|:-------------|:---------------|:---------------------|:---------------|:------------|                  
+|                |  Flutes,     | products using All   |              |             |
+|                |  Music Books |    Products dropdown |              |             |
+|                |              |     using Pricing,   |              |             |
+|                |              |  Category, Rating.   |              |             |
+|                |              |  User can search All |              |             |
+|                |              |  Flutes using the    |              |             |
+|                |              |   dropdown for       |              |             |
+|                |              |   Classical Flutes,  |              |             | 
+|                |              |   Student Flutes,    |              |             |
+|                |              |   Piccolos and Wooden|              |             |
+|                |              |    Flutes. Users can |              |             |
+|                |              |    search All Music  |              |             |
+|                |              |    Books using the   |              |             |
+|                |              |    dropdown menu for |              |             |
+|                |              |     Classical Music  |              |             |
+|                |              |    Books,            |              |             |
+|                |              | Student Music Books, |              |             |
+|                |              |  Flute Repertoire    |              |             |
+|                |              |  Music Books and     |              |             |
+|                |              |  Flute Duet          |              |             |
+|                |              |  Music Books.        |              |             |
+|:---------------|:-------------|:---------------------|:-------------|:------------|                  
 
 
 
