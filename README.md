@@ -6,10 +6,13 @@ The purpose of this project was to create an ecommerce website for flautists tha
 To login into the Heroku app please use: https://ep-flutes-flutes-and-flutes-31bc05f84613.herokuapp.com
 
 To get into the Django admin and be a superuser for the Project Management for the app please follow: 
+
 Username = epage1
+
 Password = Brasseye123
 
 To make a purchase in the Checkout Page please use the CVC as follows: 
+
 CVC = 4242 4242 4242 4242    04/29  424  24242
 
 
