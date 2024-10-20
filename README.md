@@ -339,14 +339,18 @@ There were many problems using up to date Django and had to install a lower vers
 Project was deployed to Heroku with quite a few issues but managed to complete this in the end. Created Procfile and requirements.txt for dependencies. Created new Heroku app and set environment variables. Linked my Github and environment with Heroku pushed to Heroku. 
 
 My link for Heroku is: https://ep-flutes-flutes-and-flutes-31bc05f84613.herokuapp.com
+
 My link for Github is: https://github.com/EPageone/flutes-flutes-and-flutes
 
 
 ### Acknowledgments
 
 I used https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap for my fonts on the site. 
+
 I used https://code.jquery.com/jquery-3.4.1.slim.min.js
+
 I used https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js
+
 I also used a lot of support from the Code Institute Boutique Ado Walkthrough Project and Slack, Stack Overflow and tutor support and fellow student support. 
 
 
