@@ -1,4 +1,4 @@
-### Code Institute Milestone Project 4 – Online Flute Store
+# Code Institute Milestone Project 4 – Online Flute Store
 
 ## Description
 The purpose of this project was to create an ecommerce website for flautists that want to purchase flutes of different types and styles. As I am in a band and my instrument is the flute, I wanted to create a website that is for flutes and only flutes. This is my final project for Code Institute Level 5 Diploma in Web Application Development.
