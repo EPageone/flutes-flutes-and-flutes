@@ -280,7 +280,11 @@ I ran tests for my models, forms, views in my bag app, checkout app and products
 
 ### Manual Testing
 
-|_____________|______________|____________|___________|
+|  **Feature**   | **Action**   | **Expected Result**  | **Tested**   | **Passed**  |
+|:---------------|:-------------|:---------------------|:-------------|:------------|
+|  Home Page     | All Products, 
+                  Flutes, 
+                  Music Books   |                      |              |             |
 
 
 
