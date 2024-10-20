@@ -239,6 +239,23 @@ Flutes, Flutes & Flutes comprises of 4 Django apps, each working harmoniously to
 •	**Git**: Distributed version control system for tracking changes in source code. Facilitates collaboration and code sharing among developers.
 
 
+### Libraries I had to install
+
+•	**Django** – I had to install an earlier version of Django as the latest version would not allow the project to work. 
+
+•	**Allauth** – I had to install an earlier version of allauth as the latest version kept upgrading Django and the site would not work correctly. 
+•	**Django countries** – I installed this so the countries drop down in the checkout app would work correctly. 
+
+•	**DJ database url**
+
+•	**Gunicorn** – so the site could be deployed to Heroku
+
+•	**Pillow** – so the images could be loaded with the loaddata command.
+
+•	**Boto3** – to run the AWS services for static files. 
+
+
+
 
 
 
