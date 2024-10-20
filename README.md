@@ -255,6 +255,42 @@ Flutes, Flutes & Flutes comprises of 4 Django apps, each working harmoniously to
 •	**Boto3** – to run the AWS services for static files. 
 
 
+### Testing
+
+I tested my HTML and CSS code using the W3Schools Validation tools. I also completed manual testing and tested out all functions to make sure they worked. I tested my JSon with Json Lint.
+I also ran tests for models, views and urls within the site so I could keep on track of the progression within the building of the site. 
+
+**W3Schools Validation** and **JSonLint**
+
+![image](https://github.com/user-attachments/assets/5baa169d-f3f5-4126-9b2a-c0cd2ba007ce)
+![image](https://github.com/user-attachments/assets/b766c494-a55e-4ade-8340-1c7ca7633ef8)
+![image](https://github.com/user-attachments/assets/8bd2d129-056a-4171-9a3b-ee37d8c2a6b4)
+![image](https://github.com/user-attachments/assets/c6597292-ecaa-40d1-a931-14b8a562bcdd)
+![image](https://github.com/user-attachments/assets/5a9c2c56-aad3-4d57-af8d-c225fe6bf583)
+
+I ran tests for my models, forms, views in my bag app, checkout app and products. 
+
+![image](https://github.com/user-attachments/assets/b2fa5123-1f4b-4e6b-af3b-0b9949437298)
+![image](https://github.com/user-attachments/assets/0668f890-0843-4923-b987-cfc46d749d70)
+![image](https://github.com/user-attachments/assets/68178e4d-1ee0-4c9f-a485-5e64453acfb4)
+![image](https://github.com/user-attachments/assets/abfad63a-cc64-40d4-95b1-2c2cd1c72687)
+![image](https://github.com/user-attachments/assets/1e4fa230-9988-4186-ac8c-5cd02dd03876)
+![image](https://github.com/user-attachments/assets/6ec9708b-0e9e-4ea1-b4a9-8b7e48b337dc)
+
+
+### Manual Testing
+
+|_____________|______________|____________|___________|
+
+
+
+
+
+
+
+
+
+
 
 
 
