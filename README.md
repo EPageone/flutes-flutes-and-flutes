@@ -281,7 +281,7 @@ I ran tests for my models, forms, views in my bag app, checkout app and products
 ### Manual Testing
 
 |  **Feature**   | **Action**   | **Expected Result**  | **Tested**   | **Passed**  |
-|:---------------|:-------------|:---------------------|:-------------|:------------|
+|                |              |                      |              |             |
 |  Home Page     | All Products,| User can search for  | Yes          | Yes         |
 |                |  Flutes,     | products using All   |              |             |
 |                |  Music Books |    Products dropdown |              |             |
@@ -314,19 +314,19 @@ I ran tests for my models, forms, views in my bag app, checkout app and products
 |                |              | order summary.       |              |             |
 |                |              |                      |              |             |
 |                |              |                      |              |             |
-|:---------------|:-------------|:---------------------|:-------------|:------------|                
+|                |              |                      |              |             |                
 | Product        |Add Products, | Superuser can add,   |  Yes         |  Yes        |
 | Management     |   edit and   | edit and delete      |              |             |
 |                |   delete     | products. Normal     |              |             |
 |                |  (only for   | users cannot do this.|              |             |
 |                |  superusers) |                      |              |             |
 |                |              |                      |              |             |               
-|:---------------|:-------------|:---------------------|:-------------|:------------|
+|                |              |                      |              |             |
 | Logout         | Users can    |  User can logout,    | Yes          |  Yes        |
 |                | logout       | returns to Login     |              |             |
 |                |              | Page                 |              |             |
 |                |              |                      |              |             |
-|:---------------|:-------------|:---------------------|:-------------|:------------|
+|                |              |                      |              |             |
 
 
 
