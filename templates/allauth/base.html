@@ -4,6 +4,11 @@
     <title>{% block head_title %}{% endblock %}</title>
     {% block extra_head %}
     {% endblock %}
+    <style>
+      body {
+        background-color: #1c87c9;
+      }
+    </style>
   </head>
   <body>
     {% block body %}
@@ -24,7 +29,7 @@
       <ul>
         {% if user.is_authenticated %}
         <li><a href="{% url 'account_email' %}">Change E-mail</a></li>
-        <li><a href="{% url 'account_logout' %}"  "onclick="return confirm('Are you sure you want to sign out');">Sign Out</a></li>
+        <li><a href="{% url 'account_logout' %}">Sign Out</a></li>
         {% else %}
         <li><a href="{% url 'account_login' %}">Sign In</a></li>
         <li><a href="{% url 'account_signup' %}">Sign Up</a></li>
@@ -38,4 +43,3 @@
     {% endblock %}
   </body>
 </html>
-
