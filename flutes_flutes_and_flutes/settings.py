@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['ep-flutes-flutes-and-flutes-31bc05f84613.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['ep-flutes-flutes-and-flutes-31bc05f84613.herokuapp.com', '8000-epageone-flutesflutesan-nc71btn41fp.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -63,6 +63,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CSRF_TRUSTED_ORIGINS = ['https://8000-epageone-flutesflutesan-nc71btn41fp.ws.codeinstitute-ide.net']
 
 ROOT_URLCONF = 'flutes_flutes_and_flutes.urls'
 
