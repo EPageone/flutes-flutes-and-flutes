@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['ep-flutes-flutes-and-flutes-31bc05f84613.herokuapp.com', 'localhost' ]
+ALLOWED_HOSTS = ['ep-flutes-flutes-and-flutes-31bc05f84613.herokuapp.com', '8000-epageone-flutesflutesan-nc71btn41fp.ws.codeinstitute-ide.net' ]
 
 
 # Application definition
@@ -62,7 +62,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
 ]
+
+CSRF_TRUSTED_ORIGINS = ['https://8000-epageone-flutesflutesan-nc71btn41fp.ws.codeinstitute-ide.net']
+
 
 ROOT_URLCONF = 'flutes_flutes_and_flutes.urls'
 
@@ -183,36 +187,28 @@ if 'USE_AWS' in os.environ:
     }
 
     # Bucket Config
-    AWS_STORAGE_BUCKET_NAME = 'ep-flutes-flutes-and-flutes'
+    AWS_STORAGE_BUCKET_NAME = 'traveling-wickets'
     AWS_S3_REGION_NAME = 'eu-west-2'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 
     # Static and media files
-
-STORAGES = {
- "default": {
- "BACKEND": "custom_storages.MediaStorage",
- },
- "staticfiles": {
- "BACKEND": "custom_storages.StaticStorage",
- },
-}
-STATICFILES_LOCATION = 'static'
-MEDIAFILES_LOCATION = 'media'
-
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
 
     # Override static and media URLs in production
-STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
-MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
 # stripe
 
 FREE_DELIVERY_THRESHOLD = 500
 STANDARD_DELIVERY_PERCENTAGE = 10
 
-STRIPE_CURRENCY = 'gbp'
+STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
@@ -228,7 +224,6 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
-
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
